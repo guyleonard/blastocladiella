@@ -25,4 +25,4 @@ Unlikely
 * Assembly Data
  * All assembly data will be available from the website
 
-Anything else will be available at http://gna-phylo.nhm.ac.uk/content/genome_projects - which will include: downloads of data, BLAST servers and a genome viewer etc
+Anything else will be available at http://gna-phylo.nhm.ac.uk/content/genome_projects - which will include: downloads of data, BLAST servers and a genome viewer, wiki etc

@@ -5,6 +5,7 @@ This is a repository of all the scripts and output I have generated from sequenc
 
 
 Eventually I will upload post-assembly files, to include:
+
 Definitely
 * Gene Predictions
 * Protein/Amino Acids

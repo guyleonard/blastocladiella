@@ -1,0 +1,36 @@
+{
+ "values": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  2,
+  3,
+  0,
+  0,
+  0,
+  1,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "keys": [
+  "Blastocladiella",
+  "Allomyces",
+  "Sporisorium",
+  "Priapulus",
+  "Catenaria",
+  "Xenopus",
+  "Gemmata",
+  "Rhodotorula",
+  "Lichtheimia"
+ ]
+}

@@ -1,0 +1,617 @@
+{
+ "id": "blem_22",
+ "assembly": {
+  "accession": "c_be_22",
+  "alias": "blem_22",
+  "bioproject": "PRJNA194096",
+  "biosample": "SAMN15893246",
+  "record_type": "contig",
+  "file": "assembly.fasta",
+  "scaffold-count": 21,
+  "span": 32654225
+ },
+ "fields": [
+  {
+   "id": "identifiers",
+   "type": "identifier"
+  },
+  {
+   "id": "gc",
+   "preload": true,
+   "scale": "scaleLinear",
+   "name": "GC",
+   "datatype": "float",
+   "range": [
+    0.5568,
+    0.6755
+   ],
+   "type": "variable"
+  },
+  {
+   "preload": true,
+   "scale": "scaleLog",
+   "id": "length",
+   "name": "Length",
+   "clamp": false,
+   "datatype": "integer",
+   "range": [
+    20409,
+    5142960
+   ],
+   "type": "variable"
+  },
+  {
+   "scale": "scaleLinear",
+   "id": "ncount",
+   "name": "N count",
+   "datatype": "integer",
+   "range": [
+    0,
+    0
+   ],
+   "type": "variable"
+  },
+  {
+   "datatype": "string",
+   "type": "category",
+   "id": "taxonomy",
+   "name": "Taxonomy",
+   "children": [
+    {
+     "id": "bestsum",
+     "children": [
+      {
+       "id": "bestsum_positions",
+       "name": "bestsum_positions",
+       "type": "multiarray",
+       "datatype": "mixed",
+       "preload": false,
+       "active": false,
+       "files": [
+        "assembly.ncbi.blastn.1e-10.out",
+        "assembly.diamond.uniprot.blastx.out"
+       ],
+       "headers": [
+        "taxid",
+        "start",
+        "end",
+        "score",
+        "subject",
+        "index",
+        "title"
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_superkingdom",
+       "name": "bestsum_superkingdom",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_superkingdom_cindex",
+         "name": "bestsum_superkingdom_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_superkingdom"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_superkingdom_score",
+         "name": "bestsum_superkingdom_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          730.0,
+          27925.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_superkingdom"
+        },
+        {
+         "id": "bestsum_superkingdom_positions",
+         "name": "bestsum_superkingdom_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_superkingdom"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_kingdom",
+       "name": "bestsum_kingdom",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_kingdom_cindex",
+         "name": "bestsum_kingdom_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_kingdom"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_kingdom_score",
+         "name": "bestsum_kingdom_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          730.0,
+          27925.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_kingdom"
+        },
+        {
+         "id": "bestsum_kingdom_positions",
+         "name": "bestsum_kingdom_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_kingdom"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_phylum",
+       "name": "bestsum_phylum",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_phylum_cindex",
+         "name": "bestsum_phylum_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_phylum"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_phylum_score",
+         "name": "bestsum_phylum_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          441.0,
+          27925.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_phylum"
+        },
+        {
+         "id": "bestsum_phylum_positions",
+         "name": "bestsum_phylum_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_phylum"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_class",
+       "name": "bestsum_class",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_class_cindex",
+         "name": "bestsum_class_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_class"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_class_score",
+         "name": "bestsum_class_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          441.0,
+          27925.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_class"
+        },
+        {
+         "id": "bestsum_class_positions",
+         "name": "bestsum_class_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_class"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_order",
+       "name": "bestsum_order",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_order_cindex",
+         "name": "bestsum_order_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_order"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_order_score",
+         "name": "bestsum_order_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          441.0,
+          27925.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_order"
+        },
+        {
+         "id": "bestsum_order_positions",
+         "name": "bestsum_order_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_order"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_family",
+       "name": "bestsum_family",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_family_cindex",
+         "name": "bestsum_family_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          1
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_family"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_family_score",
+         "name": "bestsum_family_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          441.0,
+          25256.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_family"
+        },
+        {
+         "id": "bestsum_family_positions",
+         "name": "bestsum_family_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_family"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_genus",
+       "name": "bestsum_genus",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_genus_cindex",
+         "name": "bestsum_genus_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          2
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_genus"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_genus_score",
+         "name": "bestsum_genus_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          441.0,
+          25256.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_genus"
+        },
+        {
+         "id": "bestsum_genus_positions",
+         "name": "bestsum_genus_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_genus"
+        }
+       ],
+       "parent": "bestsum"
+      },
+      {
+       "id": "bestsum_species",
+       "name": "bestsum_species",
+       "type": "category",
+       "data": [
+        {
+         "scale": "scaleLinear",
+         "id": "bestsum_species_cindex",
+         "name": "bestsum_species_cindex",
+         "datatype": "integer",
+         "range": [
+          0,
+          2
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_species"
+        },
+        {
+         "scale": "scaleLog",
+         "id": "bestsum_species_score",
+         "name": "bestsum_species_score",
+         "clamp": false,
+         "datatype": "float",
+         "range": [
+          441.0,
+          25256.0
+         ],
+         "preload": false,
+         "active": false,
+         "type": "variable",
+         "parent": "bestsum_species"
+        },
+        {
+         "id": "bestsum_species_positions",
+         "name": "bestsum_species_positions",
+         "type": "multiarray",
+         "datatype": "string",
+         "preload": false,
+         "active": false,
+         "linked_field": "bestsum_positions",
+         "category_slot": 0,
+         "headers": [
+          "name"
+         ],
+         "parent": "bestsum_species"
+        }
+       ],
+       "parent": "bestsum"
+      }
+     ],
+     "parent": "taxonomy"
+    }
+   ]
+  },
+  {
+   "datatype": "float",
+   "type": "variable",
+   "scale": "scaleLog",
+   "id": "coverage",
+   "name": "coverage",
+   "children": [
+    {
+     "id": "base_coverage",
+     "clamp": false,
+     "range": [
+      33.3485,
+      9146.191
+     ],
+     "children": [
+      {
+       "id": "pacbio_cov",
+       "file": "blem_22_final_aligned_pacbio_sorted.bam=pacbio",
+       "type": "variable",
+       "parent": "base_coverage"
+      },
+      {
+       "id": "illumina_cov",
+       "file": "blem_22_final_aligned_gaiix_sorted.bam=illumina",
+       "type": "variable",
+       "parent": "base_coverage"
+      }
+     ],
+     "parent": "coverage"
+    },
+    {
+     "id": "read_coverage",
+     "datatype": "integer",
+     "clamp": false,
+     "range": [
+      425,
+      5230264
+     ],
+     "children": [
+      {
+       "id": "pacbio_read_cov",
+       "file": "blem_22_final_aligned_pacbio_sorted.bam=pacbio",
+       "reads_mapped": 828881,
+       "reads_unmapped": 55512,
+       "type": "variable",
+       "parent": "read_coverage"
+      },
+      {
+       "id": "illumina_read_cov",
+       "file": "blem_22_final_aligned_gaiix_sorted.bam=illumina",
+       "reads_mapped": 28358716,
+       "reads_unmapped": 6141134,
+       "type": "variable",
+       "parent": "read_coverage"
+      }
+     ],
+     "parent": "coverage"
+    }
+   ]
+  },
+  {
+   "datatype": "mixed",
+   "type": "array",
+   "id": "busco",
+   "name": "Busco",
+   "children": [
+    {
+     "version": "5.3.2",
+     "set": "eukaryota_odb10",
+     "count": 255,
+     "file": "../busco/blem22_euk_meta/run_eukaryota_odb10/full_table.tsv",
+     "id": "eukaryota_odb10_busco",
+     "type": "multiarray",
+     "category_slot": 1,
+     "headers": [
+      "Busco id",
+      "Status"
+     ]
+    },
+    {
+     "version": "5.3.2",
+     "set": "fungi_odb10",
+     "count": 758,
+     "file": "../busco/blem22_fun_meta/run_fungi_odb10/full_table.tsv",
+     "id": "fungi_odb10_busco",
+     "type": "multiarray",
+     "category_slot": 1,
+     "headers": [
+      "Busco id",
+      "Status"
+     ]
+    }
+   ]
+  }
+ ],
+ "links": {},
+ "name": "blem_22",
+ "plot": {
+  "x": "gc",
+  "z": "length",
+  "cat": "bestsum_phylum",
+  "y": "pacbio_cov"
+ },
+ "record_type": "record",
+ "records": 21,
+ "taxon": {
+  "name": "Blastocladiella emersonii ATCC 22665",
+  "taxid": 1313167,
+  "superkingdom": "Eukaryota",
+  "kingdom": "Fungi",
+  "phylum": "Blastocladiomycota",
+  "class": "Blastocladiomycetes",
+  "order": "Blastocladiales",
+  "family": "Blastocladiaceae",
+  "genus": "Blastocladiella",
+  "species": "Blastocladiella emersonii"
+ },
+ "version": 1,
+ "revision": 0
+}

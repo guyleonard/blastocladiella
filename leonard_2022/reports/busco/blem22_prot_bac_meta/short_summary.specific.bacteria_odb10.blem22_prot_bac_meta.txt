@@ -1,0 +1,17 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: bacteria_odb10 (Creation date: 2020-03-06, number of genomes: 4085, number of BUSCOs: 124)
+# Summarized benchmarking in BUSCO notation for file /home/zoo/zool2474/guy/blasto_pb/final/busco/Blastocladiella_emersonii_ATCC_22665.proteins.fa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:41.1%[S:37.9%,D:3.2%],F:12.1%,M:46.8%,n:124	   
+	51	Complete BUSCOs (C)			   
+	47	Complete and single-copy BUSCOs (S)	   
+	4	Complete and duplicated BUSCOs (D)	   
+	15	Fragmented BUSCOs (F)			   
+	58	Missing BUSCOs (M)			   
+	124	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1

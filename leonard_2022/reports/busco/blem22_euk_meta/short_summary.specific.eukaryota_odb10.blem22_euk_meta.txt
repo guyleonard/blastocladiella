@@ -1,0 +1,19 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /home/zoo/zool2474/guy/blasto_pb/final/busco/Blastocladiella_emersonii_ATCC_22665.scaffolds.fa
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:89.0%[S:87.8%,D:1.2%],F:4.7%,M:6.3%,n:255	   
+	227	Complete BUSCOs (C)			   
+	224	Complete and single-copy BUSCOs (S)	   
+	3	Complete and duplicated BUSCOs (D)	   
+	12	Fragmented BUSCOs (F)			   
+	16	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

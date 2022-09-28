@@ -1,0 +1,35 @@
+{
+ "values": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  2,
+  3,
+  0,
+  0,
+  0,
+  1,
+  4,
+  5,
+  6,
+  1,
+  7
+ ],
+ "keys": [
+  "Blastocladiella emersonii",
+  "Allomyces macrogynus",
+  "Sporisorium reilianum",
+  "Priapulus caudatus",
+  "Catenaria anguillulae",
+  "Xenopus laevis",
+  "Gemmata obscuriglobus",
+  "Lichtheimia ramosa"
+ ]
+}

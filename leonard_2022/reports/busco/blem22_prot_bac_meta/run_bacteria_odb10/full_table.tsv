@@ -1,0 +1,132 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: bacteria_odb10 (Creation date: 2020-03-06, number of genomes: 4085, number of BUSCOs: 124)
+# Busco id	Status	Sequence	Score	Length	OrthoDB url	Description
+4421at2	Missing
+9601at2	Fragmented	H9P43_010023-T1	242.8	532	https://www.orthodb.org/v10?query=9601at2	DNA-directed RNA polymerase subunit beta
+26038at2	Complete	H9P43_006303-T1	231.4	366	https://www.orthodb.org/v10?query=26038at2	phosphoribosylformylglycinamidine synthase
+91428at2	Duplicated	H9P43_005071-T1	423.2	544	https://www.orthodb.org/v10?query=91428at2	alanine--tRNA ligase
+91428at2	Duplicated	H9P43_001026-T1	400.4	485	https://www.orthodb.org/v10?query=91428at2	alanine--tRNA ligase
+95696at2	Missing
+143460at2	Missing
+182107at2	Missing
+219876at2	Missing
+223233at2	Fragmented	H9P43_005208-T1	138.5	330	https://www.orthodb.org/v10?query=223233at2	DNA topoisomerase I
+226836at2	Missing
+232152at2	Complete	H9P43_001578-T1	292.3	304	https://www.orthodb.org/v10?query=232152at2	adenylosuccinate synthase
+267682at2	Complete	H9P43_010084-T1	250.6	270	https://www.orthodb.org/v10?query=267682at2	amidophosphoribosyltransferase
+353391at2	Duplicated	H9P43_001680-T1	246.0	317	https://www.orthodb.org/v10?query=353391at2	serine--tRNA ligase
+353391at2	Duplicated	H9P43_005588-T1	230.0	325	https://www.orthodb.org/v10?query=353391at2	serine--tRNA ligase
+384865at2	Missing
+402899at2	Complete	H9P43_001893-T1	251.7	275	https://www.orthodb.org/v10?query=402899at2	tyrosine--tRNA ligase
+430176at2	Complete	H9P43_008326-T1	559.6	375	https://www.orthodb.org/v10?query=430176at2	ATP synthase subunit beta
+462069at2	Complete	H9P43_009557-T1	143.4	200	https://www.orthodb.org/v10?query=462069at2	phosphoglycerate kinase
+469058at2	Complete	H9P43_005663-T1	182.9	285	https://www.orthodb.org/v10?query=469058at2	phenylalanine--tRNA ligase subunit alpha
+504464at2	Complete	H9P43_003536-T1	256.2	226	https://www.orthodb.org/v10?query=504464at2	GMP synthase 
+505485at2	Missing
+533698at2	Complete	H9P43_005974-T1	309.5	283	https://www.orthodb.org/v10?query=533698at2	Enolase
+662686at2	Missing
+665824at2	Complete	H9P43_005486-T1	317.1	362	https://www.orthodb.org/v10?query=665824at2	proline--tRNA ligase
+761140at2	Complete	H9P43_007120-T1	112.3	297	https://www.orthodb.org/v10?query=761140at2	methionine--tRNA ligase
+776861at2	Complete	H9P43_006981-T1	195.9	210	https://www.orthodb.org/v10?query=776861at2	cytidylate kinase
+837522at2	Complete	H9P43_006606-T1	652.6	405	https://www.orthodb.org/v10?query=837522at2	ATP synthase subunit alpha
+841869at2	Missing
+874197at2	Missing
+923547at2	Missing
+932854at2	Complete	H9P43_005817-T1	605.7	424	https://www.orthodb.org/v10?query=932854at2	phosphoribosylamine--glycine ligase
+932993at2	Missing
+961486at2	Complete	H9P43_003528-T1	163.5	171	https://www.orthodb.org/v10?query=961486at2	Ribosomal protein L2
+981870at2	Complete	H9P43_003562-T1	273.5	273	https://www.orthodb.org/v10?query=981870at2	chorismate synthase
+984717at2	Missing
+1009041at2	Missing
+1024388at2	Complete	H9P43_003316-T1	403.8	304	https://www.orthodb.org/v10?query=1024388at2	methionine adenosyltransferase
+1036075at2	Missing
+1043239at2	Missing
+1049662at2	Complete	H9P43_003232-T1	418.6	447	https://www.orthodb.org/v10?query=1049662at2	Bifunctional purine biosynthesis protein PurH
+1054741at2	Complete	H9P43_000585-T1	296.2	323	https://www.orthodb.org/v10?query=1054741at2	tRNA 2-thiouridine(34) synthase MnmA
+1069591at2	Complete	H9P43_006195-T1	87.1	201	https://www.orthodb.org/v10?query=1069591at2	tRNA dimethylallyltransferase
+1074831at2	Fragmented	H9P43_002393-T1	21.3	81	https://www.orthodb.org/v10?query=1074831at2	DNA repair protein RecN
+1080436at2	Missing
+1093223at2	Missing
+1132353at2	Missing
+1151822at2	Missing
+1166299at2	Complete	H9P43_007481-T1	87.5	106	https://www.orthodb.org/v10?query=1166299at2	tRNA pseudouridine synthase B
+1211060at2	Fragmented	H9P43_001266-T1	52.9	81	https://www.orthodb.org/v10?query=1211060at2	30S ribosomal protein S4
+1257362at2	Complete	H9P43_002787-T1	98.8	225	https://www.orthodb.org/v10?query=1257362at2	tRNA N6-adenosine threonylcarbamoyltransferase
+1266295at2	Complete	H9P43_001694-T1	299.5	246	https://www.orthodb.org/v10?query=1266295at2	Triosephosphate isomerase
+1270636at2	Complete	H9P43_003246-T1	125.5	148	https://www.orthodb.org/v10?query=1270636at2	50S ribosomal protein L3
+1272633at2	Missing
+1346419at2	Fragmented	H9P43_000912-T1	93.8	152	https://www.orthodb.org/v10?query=1346419at2	phosphopantothenoylcysteine decarboxylase
+1395197at2	Complete	H9P43_007545-T1	43.2	115	https://www.orthodb.org/v10?query=1395197at2	Zinc metalloprotease
+1398618at2	Missing
+1419877at2	Fragmented	H9P43_000953-T1	128.2	222	https://www.orthodb.org/v10?query=1419877at2	glycerol-3-phosphate dehydrogenase
+1456375at2	Missing
+1470978at2	Missing
+1490892at2	Missing
+1491686at2	Complete	H9P43_001873-T1	222.6	377	https://www.orthodb.org/v10?query=1491686at2	adenylate kinase
+1497415at2	Missing
+1502854at2	Duplicated	H9P43_006236-T1	203.8	179	https://www.orthodb.org/v10?query=1502854at2	guanylate kinase
+1502854at2	Duplicated	H9P43_001631-T1	194.7	181	https://www.orthodb.org/v10?query=1502854at2	guanylate kinase
+1504821at2	Fragmented	H9P43_009534-T1	29.4	92	https://www.orthodb.org/v10?query=1504821at2	Riboflavin biosynthesis protein
+1505038at2	Complete	H9P43_010158-T1	140.4	146	https://www.orthodb.org/v10?query=1505038at2	30S ribosomal protein S5
+1540940at2	Missing
+1567535at2	Missing
+1572673at2	Complete	H9P43_001122-T1	90.8	96	https://www.orthodb.org/v10?query=1572673at2	50S ribosomal protein L4
+1574817at2	Missing
+1590629at2	Missing
+1592033at2	Missing
+1595498at2	Missing
+1623045at2	Missing
+1661836at2	Missing
+1666043at2	Missing
+1671455at2	Fragmented	H9P43_005545-T1	81.5	150	https://www.orthodb.org/v10?query=1671455at2	50S ribosomal protein L1
+1674344at2	Complete	H9P43_008713-T1	77.8	134	https://www.orthodb.org/v10?query=1674344at2	ribosome recycling factor
+1676462at2	Complete	H9P43_004338-T1	77.2	102	https://www.orthodb.org/v10?query=1676462at2	Peptidyl-tRNA hydrolase
+1692188at2	Missing
+1698718at2	Missing
+1701531at2	Complete	H9P43_004098-T1	105.4	172	https://www.orthodb.org/v10?query=1701531at2	ATP synthase gamma chain
+1702697at2	Complete	H9P43_008516-T1	68.6	103	https://www.orthodb.org/v10?query=1702697at2	50S ribosomal protein L11
+1707228at2	Complete	H9P43_003278-T1	148.2	89	https://www.orthodb.org/v10?query=1707228at2	30S ribosomal protein S12
+1713391at2	Missing
+1720952at2	Missing
+1758685at2	Missing
+1760144at2	Missing
+1766414at2	Complete	H9P43_004267-T1	60.1	108	https://www.orthodb.org/v10?query=1766414at2	30S ribosomal protein S9
+1772647at2	Missing
+1776954at2	Missing
+1786618at2	Complete	H9P43_001974-T1	84.1	101	https://www.orthodb.org/v10?query=1786618at2	50S ribosomal protein L16
+1799923at2	Complete	H9P43_007641-T1	96.8	103	https://www.orthodb.org/v10?query=1799923at2	50S ribosomal protein L14
+1822215at2	Complete	H9P43_002838-T1	100.2	111	https://www.orthodb.org/v10?query=1822215at2	50S ribosomal protein L13
+1822695at2	Complete	H9P43_005047-T1	40.5	79	https://www.orthodb.org/v10?query=1822695at2	50S ribosomal protein L7/L12
+1827295at2	Duplicated	H9P43_006768-T1	46.1	157	https://www.orthodb.org/v10?query=1827295at2	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+1827295at2	Duplicated	H9P43_009395-T1	45.1	157	https://www.orthodb.org/v10?query=1827295at2	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+1827295at2	Duplicated	H9P43_006784-T1	42.9	157	https://www.orthodb.org/v10?query=1827295at2	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+1827334at2	Missing
+1830156at2	Missing
+1838961at2	Complete	H9P43_006035-T1	76.8	83	https://www.orthodb.org/v10?query=1838961at2	50S ribosomal protein L17
+1842956at2	Fragmented	H9P43_003363-T1	20.6	45	https://www.orthodb.org/v10?query=1842956at2	biotin--
+1844275at2	Complete	H9P43_009400-T1	142.9	154	https://www.orthodb.org/v10?query=1844275at2	aspartate carbamoyltransferase
+1846503at2	Missing
+1874945at2	Complete	H9P43_006514-T1	52.0	109	https://www.orthodb.org/v10?query=1874945at2	50S ribosomal protein L15
+1890943at2	Fragmented	H9P43_001106-T1	33.1	62	https://www.orthodb.org/v10?query=1890943at2	ribonuclease III
+1893906at2	Fragmented	H9P43_007840-T1	80.9	65	https://www.orthodb.org/v10?query=1893906at2	30S ribosomal protein S19
+1904463at2	Complete	H9P43_006143-T1	103.1	66	https://www.orthodb.org/v10?query=1904463at2	50S ribosomal protein L27
+1906715at2	Complete	H9P43_006546-T1	24.5	99	https://www.orthodb.org/v10?query=1906715at2	Protein GrpE
+1932144at2	Missing
+1937072at2	Complete	H9P43_008634-T1	77.9	69	https://www.orthodb.org/v10?query=1937072at2	30S ribosomal protein S16
+1937493at2	Complete	H9P43_005405-T1	112.1	172	https://www.orthodb.org/v10?query=1937493at2	ATP synthase subunit delta
+1940575at2	Complete	H9P43_001635-T1	57.5	44	https://www.orthodb.org/v10?query=1940575at2	30S ribosomal protein S18
+1949059at2	Missing
+1959318at2	Missing
+1963491at2	Missing
+1971380at2	Missing
+1978865at2	Fragmented	H9P43_007880-T1	51.8	61	https://www.orthodb.org/v10?query=1978865at2	50S ribosomal protein L23
+1990141at2	Fragmented	H9P43_000478-T1	72.4	63	https://www.orthodb.org/v10?query=1990141at2	30S ribosomal protein S15
+1990650at2	Complete	H9P43_009615-T1	58.8	81	https://www.orthodb.org/v10?query=1990650at2	Ribosomal silencing factor RsfS
+2005443at2	Missing
+2012682at2	Missing
+2035880at2	Missing
+2040741at2	Missing
+2046660at2	Fragmented	H9P43_007302-T1	16.9	14	https://www.orthodb.org/v10?query=2046660at2	50S ribosomal protein L35
+2063644at2	Fragmented	H9P43_001381-T1	17.1	25	https://www.orthodb.org/v10?query=2063644at2	50S ribosomal protein L29
+2066663at2	Missing
+2075502at2	Missing

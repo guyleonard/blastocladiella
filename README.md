@@ -7,4 +7,4 @@ Scripts and data generated from sequencing the genome of *Blastocladiella emerso
 * A genome sequence assembly of the phototactic and optogenetic model fungus *Blastocladiella emersonii* reveals a diversified nucleotide-cyclase repertoire (*In prep*). Leonard et al. 2022.
    * Files located in "leonard_2022"
    * BLAST Server available [here](http://lecadb.co.uk/blastocladiella/) - please be gentle!
-   * Figshare Data from Publication [here]()
+   * Figshare Data from Publication [here](https://doi.org/10.6084/m9.figshare.c.6221042)

@@ -6,5 +6,5 @@ Scripts and data generated from sequencing the genome of *Blastocladiella emerso
 
 * Genome of *Blastocladiella emersonii* (*In prep*). Leonard et al. 2022.
    * Files located in "leonard_2022"
-
-
+   * BLAST Server available [here](http://lecadb.co.uk/blastocladiella/) - please be gentle!
+   * Figshare Data from Publication [here]()
